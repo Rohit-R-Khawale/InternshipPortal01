@@ -15,7 +15,12 @@
     "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+<<<<<<< HEAD
     "react-hook-form": "^7.63.0"
+=======
+    "react-hook-form": "^7.63.0",
+    "react-router-dom": "^7.9.1"
+>>>>>>> d3c2908b1a158fceb1d079d2033fdcda18a544d9
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
