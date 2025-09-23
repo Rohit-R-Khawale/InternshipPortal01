@@ -82,13 +82,15 @@ export default function Home() {
                 Sign In
               </motion.button>
             </Link>
-            <motion.button 
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:shadow-lg hover:shadow-blue-200/60 transition-all font-medium"
-            >
-              Sign Up
-            </motion.button>
+            <Link href="/Signup">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:shadow-lg hover:shadow-blue-200/60 transition-all font-medium"
+              >
+                Sign Up
+              </motion.button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -125,9 +127,11 @@ export default function Home() {
             <button className="w-full px-4 py-2.5 rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-50 transition-all mt-4">
               Sign In
             </button>
-            <button className="w-full px-4 py-2.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-all">
-              Sign Up
-            </button>
+           
+              <button className="w-full px-4 py-2.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-all">
+                Sign Up
+              </button>
+            
           </motion.div>
         )}
       </header>
@@ -291,7 +295,7 @@ export default function Home() {
             Post an Opening
           </motion.button>
         </div>
-      </section>
+      </section > 
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 text-center py-12 text-sm">
