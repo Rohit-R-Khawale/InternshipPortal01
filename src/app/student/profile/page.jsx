@@ -81,7 +81,7 @@ const Logo = () => (
             <div className="p-2 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg">
                 <Briefcase className="w-6 h-6 text-white" />
             </div>
-            <span>InternPortal</span>
+            <span>CampusSage</span>
         </motion.div>
     </a>
 );

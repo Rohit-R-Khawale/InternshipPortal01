@@ -28,7 +28,7 @@ export default function Sidebar() {
           <div className="p-2 bg-blue-600 rounded-lg">
             <Briefcase className="w-6 h-6" />
           </div>
-          <span className="text-xl font-bold">InternPortal</span>
+          <span className="text-xl font-bold">CampusSage</span>
         </div>
         <p className="text-sm text-gray-400 mt-1">Company Dashboard</p>
       </div>
