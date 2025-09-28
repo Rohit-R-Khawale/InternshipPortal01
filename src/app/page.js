@@ -1,32 +1,3 @@
-// "use client";
-// import { useState } from "react";
-// import { motion } from "framer-motion";
-// import { Briefcase, Brain, CheckCircle, BarChart2, X, Menu } from "lucide-react";
-// import Header from "./components/Header";
-// import Hero from "./components/Hero";
-// import Features from "./components/Features";
-// import CTA from "./components/CTA";
-// import Footer from "./components/Footer";
-
-// export default function Home() {
-//   const [menuOpen, setMenuOpen] = useState(false);
-
-//   return (
-//     <div className="font-sans text-gray-800 scroll-smooth bg-white">
-//       {/* Navbar */}
-//       <Header/>
-//       {/* Hero Section */}
-//       <Hero/>
-//       {/* Features Section */}
-//       <Features/>
-//       {/* For Companies Section */}
-//       <CTA/>
-//       {/* Footer */}
-//       <Footer/>
-//     </div>
-//   );
-// }
-
 
 "use client";
 import { useState } from "react";

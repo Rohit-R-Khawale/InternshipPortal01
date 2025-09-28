@@ -1,21 +1,23 @@
-import { createSlice } from "@reduxjs/toolkit";
+"use client"; // This is a client component
+import { createSlice,nanoid } from "@reduxjs/toolkit";
 
 const initialState = {
-  users: [
-    { username: text, email: text, password: text, isAuthenticated: false },
-  ],
+  users: [],
 };
-
+// NOTE: DONT STORE SENSITIVE INFORMATION LIKE PASSWORDS IN REDUX STORE IN REAL APPLICATIONS
+// THIS IS JUST FOR DEMONSTRATION PURPOSES
 export const counterSlice = createSlice({
-  name: "counter",
+  name: "AuthStore",
   initialState,
   reducers: {
     addUser: (state, action) => {
       const user = {
+        id:nanoid(),
         username: action.payload.username,
         email: action.payload.email,
         password: action.payload.password,
         isAuthenticated: action.payload.isAuthenticated,
+        role: action.payload.role,
       };
 
       state.users.push(user);
